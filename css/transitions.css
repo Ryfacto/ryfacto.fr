@@ -1,0 +1,90 @@
+*:after,
+*:before,
+p a,
+a,
+.tg-socialicons li a,
+.tg-roundicontext,
+.tg-roundicontext .tg-usericonholder,
+.sub-menu,
+.mega-menu,
+.tg-dropdowncontent,
+.tg-sidenavigation,
+.tg-sliderdots .owl-dot span,
+.tg-teammembersthumbnail .item figure img,
+.owl-dots .owl-dot span,
+.tg-teammember figure .tg-portfoliohover,
+.tg-portfolioitem figure .tg-portfoliohover h2 span,
+.tg-portfolioitem figure .tg-portfoliohover h3 span,
+.tg-portfolioitem figure .tg-portfoliohover,
+.tg-themefeatureicon,
+.tg-box,
+.tg-serviceicon,
+.tg-serviceicon i,
+.tg-product figure a img,
+.tg-product figure img,
+.tg-themecollapse h3,
+.tg-socialicons,
+.tg-membercontent,
+.tg-contactusvtwo .tg-address li figure,
+.tg-portfoliotitle,
+.tg-post figure figcaption,
+.tg-blogpostveight .tg-post .tg-postcontent:before,
+.tg-blogimggallery li .tg-hover,
+.tg-formleavecomment .form-group textarea,
+.spread-overlay .tg-sidenavholder,
+.tg-sidenavholder,
+.tg-posthovercontent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+.tg-flipper{
+	-webkit-transition: all 600ms ease-in-out;
+	-moz-transition: all 600ms ease-in-out;
+	-ms-transition: all 600ms ease-in-out;
+	-o-transition: all 600ms ease-in-out;
+	transition: all 600ms ease-in-out;
+}
+.tg-selectedwork .tg-portfolioitem figure .tg-portfoliohover h2 span{
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+.tg-selectedwork .tg-portfolioitem figure .tg-portfoliohover h3 span{
+	-webkit-transition: all 600ms ease-in-out;
+	-moz-transition: all 600ms ease-in-out;
+	-ms-transition: all 600ms ease-in-out;
+	-o-transition: all 600ms ease-in-out;
+	transition: all 600ms ease-in-out;
+}
+.tg-btnplus{
+	-webkit-transition: all 800ms ease-in;
+	-moz-transition: all 800ms ease-in;
+	-ms-transition: all 800ms ease-in;
+	-o-transition: all 800ms ease-in;
+	transition: all 800ms ease-in;
+}

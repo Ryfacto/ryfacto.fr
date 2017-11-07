@@ -1,0 +1,176 @@
+/*==========================================================================================
+									Primery Theme Colors									
+==========================================================================================*/
+/*=============================================
+			Theme Text Color
+=============================================*/
+a,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.tg-stars span:after,
+.tg-serviceicon i,
+.tg-bluetextcolor,
+.tg-postmetadata li a:hover,
+.tg-headervsix .tg-navigation > ul > li > a:hover,
+.tg-headervsix .tg-navigation > ul > li:hover > a,
+.tg-headervsix .tg-navigation > ul > li.current-menu-item > a,
+.tg-product:hover .tg-nameprice h3 a,
+.tg-headerveleven .tg-navigation > ul > li:hover > a,
+.tg-address li > i,
+.tg-address li > a,
+.tg-address li > a:hover,
+.tg-portfoliovfive .tg-navfilterbale li a:hover,
+.tg-portfoliovfive .tg-navfilterbale li a.tg-active,
+.tg-servicesvsix .tg-service:hover .tg-serviceicon i,
+.tg-servicesvsix .tg-service:hover .tg-servicetitle h3 a,
+.tg-blogpostveight .tg-postcontent .tg-posttitle h3:hover a{ color: #202949;}
+/*=============================================
+			Theme Background Color
+=============================================*/
+.tg-skillbar,
+.tg-service .tg-back,
+.tg-imgshadow figure:before,
+.tg-btnblue,
+.tg-btnblue:hover,
+.tg-themefeaturesvtwo .tg-themefeatureicon,
+.tg-bgblue,
+.tg-planhead h4:before,
+.tg-themefeaturesvthree .tg-themefeature:hover .tg-themefeatureicon,
+.tg-clientfeedbackslidervthree .center .tg-clientfeedback .tg-box,
+.tg-clientfeedbackslidervthree .owl-dots .owl-dot.active span,
+.tg-clientfeedbackslidervthree .owl-dots .owl-dot span:hover,
+.tg-formstartproject .form-group .tg-btn,
+.tg-contactusvtwo .tg-address li figure:after,
+.tg-postquoteblue,
+.effect-18 ~ .focus-border:before, 
+.effect-18 ~ .focus-border:after,
+.tg-headervsix .navbar-toggle .icon-bar,
+.tg-footervfour{ background:#202949; }
+
+.tg-parallaxservices,
+.tg-homeslidervfour figcaption,
+.tg-parallaxclientfeedback,
+.tg-innerbannervsix figure figcaption,
+.tg-portfoliovfive .tg-portfolioitem:hover figcaption,
+.tg-blogpostvone .tg-post:hover figure figcaption,
+.tg-hover,
+.tg-portfolioitem figure:hover .tg-hovervone{ background:rgba(59,85,230,0.80); }
+/*=============================================
+			Theme Border Color
+=============================================*/
+input:focus,
+.select select:focus,
+.form-control:focus,
+.tg-btnblue,
+.tg-btnblue:hover,
+.tg-clientfeedbackslidervthree .center .tg-clientfeedback .tg-box:before,
+blockquote,
+.tg-formleavecomment .form-group textarea:focus,
+.tg-formcontactus .form-group textarea:focus,
+.tg-headervsix .navbar-toggle{ border-color: #202949; }
+/*==========================================================================================
+									Secondary Theme Colors									
+==========================================================================================*/
+/*=============================================
+			Theme Text Color
+=============================================*/
+a,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.tg-stars span:after,
+.tg-pinktextcolor,
+.tg-newsupdates h3 span,
+.tg-statisticsvtwo li h3,
+.tg-aboutauthorcontent .tg-description p span,
+.tg-navfilterbale li a:hover,
+.tg-navfilterbale li a.tg-active,
+.tg-btnviewweb,
+.tg-clientname,
+.tg-formleavecomment .form-group .input__label-content--nao em,
+.tg-ratingbox h3 span,
+.tg-portfoliovtwo .tg-navfilterbale li a.tg-active{ color: #c79035; }
+/*=============================================
+			Theme Background Color
+=============================================*/
+.tg-badge,
+.tg-themetabnav li a:before,
+.tg-btnpink,
+.tg-btnpink:hover,
+.tg-whitecontent .tg-themefeaturesvtwo .tg-themefeatureicon,
+.tg-themefeaturesvfive .tg-themefeatureicon,
+.tg-themefeaturesvfive .tg-themefeatureicon:hover,
+.tg-pagination ul li.tg-active a,
+.tg-pagination ul li a:hover,
+.tg-themecollapse h3.open,
+.tg-themecollapse h3:hover,
+.tg-404errorcontent .tg-btn,
+.tg-maintenenacecontent .tg-skills .tg-skillbar,
+.tg-comingsooncontent .tg-formsubscribe button,
+.tg-postquotepink,
+.tg-navtabs li a:before,
+.tg-navtabs li.active a:before,
+.tg-navtabs li:hover a:before,
+.tg-tabcontent .tg-skillbar,
+.tg-blogpostvseven .tg-postcontent .tg-posttitle:after,
+.tg-btn:hover:before{ background:#c79035; }
+/*=============================================
+			Theme Border Color
+=============================================*/
+input:focus,
+.select select:focus,
+.form-control:focus,
+.tg-btnpink,
+.tg-homesliderthumbnails .current figure,
+.tg-404errorcontent .tg-btn,
+.tg-btn:hover,
+.tg-darkcontent .tg-slidercontent .tg-btn:hover{ border-color: #c79035; }
+/*==========================================================================================
+									Others Theme Colors									
+==========================================================================================*/
+/*=============================================
+			Theme Text Color
+=============================================*/
+.tg-footervthree h4 + a,
+.tg-yellowtextcolor,
+.tg-yellowtextcolor:hover,
+.tg-servicesvseven .tg-serviceicon i,
+.tg-servicesveight .tg-serviceicon{ color: #c79035; }
+
+{ color: #00aced; }
+
+.tg-greentextcolor,
+.tg-servicesvnine .tg-serviceicon,
+.tg-servicesvnine .tg-serviceicon i,
+.tg-featuresvtwo .tg-feature h3 span,
+.tg-headervten .tg-navigation > ul > li:hover > a{ color: #82b440; }
+/*=============================================
+			Theme Background Color
+=============================================*/
+.tg-bggolden,
+.tg-headervfive .tg-navigation > ul > li > a:before,
+.tg-headervnine .navbar-toggle .icon-bar,
+.tg-headervfive .navbar-toggle .icon-bar,
+.tg-headervnine .navbar-toggle{ background: #c79035; }
+.tg-parallaxtestimonials{ background: rgba(244,192,48, 0.80); }
+.tg-footervthree .tg-footernav ul li a:before{ background: #00aced; }
+.tg-headervten .navbar-toggle .icon-bar{ background: #82b440; }
+.tg-servicesvnine .tg-service:hover .tg-serviceicon,
+.tg-clientfeedbackslidervfour .tg-clientfeedback > h3,
+.tg-greencolor .tg-service .tg-back,
+.tg-statisticsvfour,
+.tg-servicesvten .tg-serviceicon{ background: #82b440; }
+/*=============================================
+			Theme Border Color
+=============================================*/
+.tg-servicesvseven .tg-service,
+.tg-headervnine .navbar-toggle,
+.tg-headervfive .navbar-toggle{ border-color: #c79035; }
+.tg-servicesvnine .tg-serviceicon,
+.tg-headervten .navbar-toggle{ border-color: #82b440; }
+{ border-color: #00aced; }

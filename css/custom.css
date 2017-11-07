@@ -1,0 +1,19 @@
+.ry-header
+{
+	padding-top: 30px;
+}
+
+.ry-header .tg-darkheader .tg-navigation > ul > li > a
+{
+	color: #202949;
+}
+
+.ry-header .tg-darkheader .tg-navigation > ul > li > a::before
+{
+	background: #202949;
+}
+
+.tg-headervone .ry-header .tg-socialicons
+{
+	border-left: none;
+}
