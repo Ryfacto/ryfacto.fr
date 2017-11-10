@@ -1,7 +1,7 @@
 "use strict";
 jQuery(function () {
 	/*--------------------------------------
-			MOBILE MENU						
+			MOBILE MENU
 	--------------------------------------*/
 	function collapseMenu(){
 		jQuery('.tg-navigation ul li.menu-item-has-children, .tg-navigation ul li.menu-item-has-mega-menu').prepend('<span class="tg-dropdowarrow"><i class="fa fa-angle-down"></i></span>');
@@ -12,7 +12,7 @@ jQuery(function () {
 	}
 	collapseMenu();
 	/*--------------------------------------
-			FIXED HEADER					
+			FIXED HEADER
 	--------------------------------------*/
 	if(jQuery('.tg-fixedheader').length > 0){
 		jQuery(window).scroll(function() {
@@ -81,7 +81,7 @@ jQuery(function () {
 		});
 	}
 	/*---------------------------------------
-			FULL PAGE SEARCH				
+			FULL PAGE SEARCH
 	---------------------------------------*/
 	jQuery('a[href="#tg-search"]').on('click', function(event) {
 		event.preventDefault();
@@ -671,5 +671,12 @@ jQuery(function () {
 				jQuery(this).removeClass("has-content");
 			}
 		})
+	});
+
+	/* --------------------------------------
+	 NAV
+	 -------------------------------------- */
+	jQuery("#tg-navigation > ul").onePageNav({
+		currentClass: 'current-menu-item'
 	});
 });
