@@ -14,13 +14,13 @@ jQuery(function () {
 	/*--------------------------------------
 			FIXED HEADER
 	--------------------------------------*/
-	if(jQuery('.tg-fixedheader').length > 0){
+	if(jQuery('.ry-dynamic-header').length > 0){
 		jQuery(window).scroll(function() {
 			var scroll = jQuery(window).scrollTop();
 			if (scroll >= 50) {
-				jQuery('.tg-fixedheader').addClass('tg-darkheader');
+				jQuery('.ry-dynamic-header').addClass('tg-darkheader');
 			}else{
-				jQuery('.tg-fixedheader').removeClass('tg-darkheader');
+				jQuery('.ry-dynamic-header').removeClass('tg-darkheader');
 			}
 		});
 	}

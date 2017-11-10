@@ -27,3 +27,14 @@ p
 {
 	padding-bottom: 90px;
 }
+
+.ry-copyright,
+.ry-copyright a
+{
+	color: #fff;
+}
+
+.ry-copyright a:hover
+{
+	color: #c79035;
+}
