@@ -3,12 +3,17 @@
 	padding-top: 30px;
 }
 
-.ry-header .tg-darkheader .tg-navigation > ul > li > a
+.ry-header .tg-darkheader .tg-navigation > ul > li > a,
+.tg-servicetitle h3,
+.tg-sectionheadvtwo .tg-sectiontitle h2,
+.tg-servicesvsix .tg-serviceicon i,
+p
 {
 	color: #202949;
 }
 
-.ry-header .tg-darkheader .tg-navigation > ul > li > a::before
+.ry-header .tg-darkheader .tg-navigation > ul > li > a::before,
+.tg-sectionheadvtwo .tg-sectiontitle::before
 {
 	background: #202949;
 }
@@ -16,4 +21,9 @@
 .tg-headervone .ry-header .tg-socialicons
 {
 	border-left: none;
+}
+
+.ry-sectionheadvtwo
+{
+	padding-bottom: 90px;
 }
