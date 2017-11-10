@@ -5,7 +5,7 @@
  is the file you need to edit to change the look of the
  theme.
  However we used Less script to make things easy to maintain, this is the compressed ourput, we recommend to edit the less files and then recombile the files and add the result here, if you don't like to use less you can edit this file here.
- 
+
  This files contents are outlined below.
  01.	Theme Reset Style
  02.	Global Elements
@@ -19,7 +19,7 @@
  10.	Grid
 */
 /* =============================================
-			Theme Reset Style					
+			Theme Reset Style
 ============================================= */
 @import url(https://fonts.googleapis.com/css?family=Lora:400i,700i|Montserrat:300,400,500,600,700|Roboto:100,300,400,500,700,900);
 * {
@@ -241,7 +241,7 @@ p ins { color: #777; }
 dl dd { margin-left: 20px; }
 address { font-style: italic; }
 /* =============================================
-			Theme Custom Select					
+			Theme Custom Select
 ============================================= */
 .tg-select {
 	color:#777;
@@ -273,7 +273,7 @@ address { font-style: italic; }
 }
 .tg-select select option { color:#777; }
 /* =============================================
-		Theme Custom CheckBox Radio				
+		Theme Custom CheckBox Radio
 ============================================= */
 .tg-radio,
 .tg-radio label,
@@ -307,7 +307,7 @@ address { font-style: italic; }
 .tg-radio input[type=radio]:checked + label:before,
 .tg-checkbox input[type=checkbox]:checked + label:before {content:'\f046';}
 /* =============================================
-			Theme Global Elements				
+			Theme Global Elements
 ============================================= */
 .tg-haslayout {
 	width:100%;
@@ -509,7 +509,7 @@ li.tg-rss a { background:#ff6600; }
 	padding-left: 0;
 }
 /* =============================================
-			Full Page Search Style				
+			Full Page Search Style
 ============================================= */
 .tg-search{
 	top: 0px;
@@ -761,7 +761,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-minicart .tg-btns a:hover i,
 .tg-minicart .tg-btns a:hover span{color: #fff;}
 /* =============================================
-			Theme Pagination Style				
+			Theme Pagination Style
 ============================================= */
 .tg-pagination{
 	width:100%;
@@ -824,7 +824,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-pagination ul li.tg-active a,
 .tg-pagination ul li a:hover{color: #fff;}
 /* =============================================
-			Theme BreadCrumb Style				
+			Theme BreadCrumb Style
 ============================================= */
 .tg-breadcrumb {
 	padding: 0;
@@ -869,7 +869,7 @@ li.tg-rss a { background:#ff6600; }
 	float: left;
 }
 /* =============================================
-			Theme Styling						
+			Theme Styling
 ============================================= */
 .tg-wrapper {overflow-x:hidden;}
 .tg-content{
@@ -1104,7 +1104,7 @@ body.tg-404errorpage .tg-wrapper {height: 100%;}
 .tg-navscrollbar .mCSB_inside > .mCSB_container{margin-right: 0;}
 .tg-navscrollbar .mCSB_scrollTools .mCSB_draggerRail{width: 0;}
 /*==============================================================================================
-										Theme Headers											
+										Theme Headers
 ==============================================================================================*/
 .tg-headers .tg-header{position:static;}
 .tg-header{
@@ -1190,7 +1190,8 @@ body.tg-404errorpage .tg-wrapper {height: 100%;}
 }
 .tg-navigation > ul > li > a:hover:before,
 .tg-navigation > ul > li:hover > a:before,
-.tg-navigation > ul > li.current-menu-item > a:before{width: 100%;}
+.tg-navigation > ul > li.current-menu-item > a:before{ width: 100%; }
+
 .sub-menu,
 .mega-menu{
 	top: 150%;
@@ -1393,23 +1394,23 @@ li.menu-item-has-children:hover > .mega-menu{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#99000000',GradientType=1 );
 }
 /* =============================================
-			Theme Header v1 Style				
+			Theme Header v1 Style
 ============================================= */
 .tg-headervone{}
 /* =============================================
-			Theme Header v2 Style				
+			Theme Header v2 Style
 ============================================= */
 .tg-headervtwo .tg-logo{margin: 10px 0;}
 .tg-headervtwo .tg-headercontent{text-align: right;}
 .tg-headervtwo .tg-socialicons{padding: 0;}
 /* =============================================
-			Theme Header v3 Style				
+			Theme Header v3 Style
 ============================================= */
 .tg-headervthree{}
 .tg-headervthree .tg-headercontent{text-align: right;}
 .tg-headervthree .tg-dropdowncontent[aria-labelledby="tg-dropdowncart"]{margin: 0 -15px 0 0;}
 /* =============================================
-			Theme Header v4 Style				
+			Theme Header v4 Style
 ============================================= */
 .tg-headervfour .tg-headercontent{
 	text-align: right;
@@ -1417,7 +1418,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-headervfour .tg-socialicons{border-left: 1px solid rgba(255, 255, 255, 0.10);}
 /* =============================================
-			Theme Header v5 Style				
+			Theme Header v5 Style
 ============================================= */
 .tg-headervfive{
 	top: 0;
@@ -1489,7 +1490,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	text-align: center;
 }
 /* =============================================
-			Theme Header v6 Style				
+			Theme Header v6 Style
 ============================================= */
 .tg-headervsix{margin: 0;}
 .tg-headervsix .tg-headercontent{
@@ -1503,7 +1504,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-headervsix .tg-socialicons li a,
 .tg-headervsix .tg-socialicons li a i{color: #606060;}
 /* =============================================
-			Theme Header v7 Style				
+			Theme Header v7 Style
 ============================================= */
 .tg-headervseven{}
 .tg-headervseven .tg-headercontent{text-align: center;}
@@ -1540,7 +1541,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 /*=============== Nav Toggle On ===============*/
 /* =============================================
-			Theme Header v8 Style				
+			Theme Header v8 Style
 ============================================= */
 .tg-headerveight .tg-headercontent{
 	background: #fff;
@@ -1675,7 +1676,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	line-height: inherit;
 }
 /* =============================================
-			Theme Header v9 Style				
+			Theme Header v9 Style
 ============================================= */
 .tg-headervnine{
 	top: 0;
@@ -1716,7 +1717,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-headervnine .tg-navigation ul li a:before{display: none;}
 /* =============================================
-			Theme Header v10 Style				
+			Theme Header v10 Style
 ============================================= */
 .tg-headervten{
 	top: 0;
@@ -1789,7 +1790,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-homebanner.tg-homebannervfive figure figcaption{padding: 0;}
 
 /* =============================================
-			Theme Sidebar Widget				
+			Theme Sidebar Widget
 ============================================= */
 .tg-widget{
 	width: 100%;
@@ -1894,7 +1895,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	float: left;
 }
 /*==============================================================================================
-										Theme Footers											
+										Theme Footers
 ==============================================================================================*/
 .tg-footercolumns{
 	width: 100%;
@@ -1991,14 +1992,14 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-by a:hover,
 .tg-by a:focus{color: #fff;}
 /*==============================================
-			Theme Footer v1 Style				
+			Theme Footer v1 Style
 ==============================================*/
 .tg-footervone .tg-copyright{
 	padding: 0;
 	width: auto;
 }
 /*==============================================
-			Theme Footer v2 Style				
+			Theme Footer v2 Style
 ==============================================*/
 .tg-footervtwo{padding: 100px 0;}
 .tg-footerlogobar{
@@ -2126,7 +2127,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	text-align: center;
 }
 /*==============================================
-			Theme Footer v3 Style				
+			Theme Footer v3 Style
 ==============================================*/
 .tg-footervthree{
 	padding: 100px 0;
@@ -2194,11 +2195,11 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-footervthree .tg-footernav ul li a:hover:before{width: 100%;}
 /*==============================================
-			Theme Footer v4 Style				
+			Theme Footer v4 Style
 ==============================================*/
 .tg-footervfour{background: #131519;}
 /*==============================================
-			Theme Footer v5 Style				
+			Theme Footer v5 Style
 ==============================================*/
 .tg-footervfive{
 	padding: 100px 0;
@@ -2260,10 +2261,10 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-footervfive .tg-copyright{padding: 60px 0 0;}
 /*==============================================================================================
-										Theme Slider Version									
+										Theme Slider Version
 ==============================================================================================*/
 /* =============================================
-			Theme Slider Style					
+			Theme Slider Style
 ============================================= */
 .tg-homeslider{
 	width: 100%;
@@ -2360,7 +2361,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-headervone.nav-dark .tg-socialicons li a,
 .tg-headervone.nav-dark .tg-socialicons li a i{color:#000;}
 /* =============================================
-			Theme Slider V One					
+			Theme Slider V One
 ============================================= */
 .tg-homeslidervone{
 	overflow: hidden;
@@ -2383,11 +2384,11 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-homeslidervone .tg-slidercontent .tg-description{top: 183px;}
 .tg-homeslidervone .tg-slidercontent .tg-btns{top: 254px;}
 /* =============================================
-			Theme Slider V Two					
+			Theme Slider V Two
 ============================================= */
 .tg-homeslidervtwo figcaption{background: rgba(26,18,17,0.80);}
 /* =============================================
-			Theme Slider V Three				
+			Theme Slider V Three
 ============================================= */
 .tg-homeslidervthree .tg-slidercontent h1,
 .tg-homeslidervthree .tg-slidercontent .tg-description p{color: #000;}
@@ -2407,12 +2408,12 @@ li.menu-item-has-children:hover > .mega-menu{
 	background: #000;
 }
 /* =============================================
-			Theme Slider V Four					
+			Theme Slider V Four
 ============================================= */
 .tg-homeslidervfour .tg-prev,
 .tg-homeslidervfour .tg-next{border-radius: 25px;}
 /* =============================================
-			Theme Slider V Five					
+			Theme Slider V Five
 ============================================= */
 .tg-homeslidervfive .tg-sliderdots{display: none;}
 .tg-homeslidervfive figcaption{background: rgba(26,18,17,0.80);}
@@ -2442,7 +2443,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	background: none;
 }
 /* =============================================
-			Theme Slider V Six					
+			Theme Slider V Six
 ============================================= */
 .tg-homeslidervsix{
 	width: 100%;
@@ -2470,7 +2471,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-homesliderthumbnails .current figcaption{background: rgba(0,0,0,0);}
 .tg-homeslidervsix .tg-homeslider .owl-dots{display:none;}
 /* =============================================
-			Theme Slider V Seven				
+			Theme Slider V Seven
 ============================================= */
 .tg-sliderholder{
 	width: 100%;
@@ -2575,7 +2576,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-homeslidervseven .tg-prev span:before,
 .tg-homeslidervseven .tg-next span:before{content: '';}
 /*==============================================================================================
-									Theme Home Banner Version									
+									Theme Home Banner Version
 ==============================================================================================*/
 .tg-pinktextcolor,
 .tg-bluetextcolor,
@@ -2660,7 +2661,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-bannercontent .tg-btn:hover{color:#fff;}
 /* =============================================
-			Home Banner V One					
+			Home Banner V One
 ============================================= */
 .tg-homebannervone figure figcaption{background: rgba(0,0,0,0.80);}
 .tg-homebannervone figure figcaption:before{
@@ -2675,7 +2676,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-homebannervone .tg-bannercontent{text-align: left;}
 /* =============================================
-			Home Banner V Two					
+			Home Banner V Two
 ============================================= */
 .tg-homebannervtwo .tg-bannercontent{padding: 0 0 0 35%;}
 .tg-homebannervtwo .tg-bannercontent{text-align: left;}
@@ -2694,7 +2695,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-bannercontent .tg-description p span{display: block;}
 /* =============================================
-			Home Banner V Three					
+			Home Banner V Three
 ============================================= */
 .tg-homebannervthree figure figcaption{background: rgba(0,0,0,0.50);}
 .tg-homebannervthree .tg-bannercontent{position: relative;}
@@ -2732,7 +2733,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-homebannervthree .tg-bannercontent h1 span{padding: 25px 0 0;}
 /* =============================================
-			Home Banner V Four					
+			Home Banner V Four
 ============================================= */
 .tg-homebannervfour figure figcaption{min-height: 350px;}
 .tg-homebannervfour .tg-bannercontent strong{
@@ -2752,7 +2753,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-homebannervfour .tg-bannercontent h1 span{padding: 15px 0 0;}
 /* =============================================
-			Home Banner V Five					
+			Home Banner V Five
 ============================================= */
 .tg-homebannervfive .tg-bannercontent .tg-description{padding: 0 0 40px;}
 .tg-homebannervfive .tg-bannercontent .tg-description p{
@@ -2767,7 +2768,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-homebannervfive .tg-bannercontent h1 .tg-greentextcolor{font-style: normal;}
 /* =============================================
-			Home Banner V Eight					
+			Home Banner V Eight
 ============================================= */
 .tg-homesliderveight figure figcaption{}
 .tg-homesliderveight .tg-slidercontent{text-align: left;}
@@ -2794,7 +2795,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-homesliderveight .tg-sliderdots{display: none;}
 /*==============================================================================================
-										Theme Inner BannerS										
+										Theme Inner BannerS
 ==============================================================================================*/
 .tg-innerbannercontent{
 	width: 100%;
@@ -2831,7 +2832,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	line-height: 22px;
 }
 /* =============================================
-			Inner Banner v2						
+			Inner Banner v2
 ============================================= */
 .tg-innerbannervtwo{
 	z-index: 1;
@@ -2872,7 +2873,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-innerbannervtwo figure figcaption h1 span{display: block;}
 /* =============================================
-			Inner Banner v3						
+			Inner Banner v3
 ============================================= */
 .tg-btnscrolldown{
 	left: 50px;
@@ -2941,7 +2942,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-innerbannercontent .tg-description p{margin: 0;}
 /* =============================================
-			Inner Banner v4						
+			Inner Banner v4
 ============================================= */
 .tg-innerbannervfour{}
 .tg-innerbannervfour figure figcaption{
@@ -2976,11 +2977,11 @@ li.menu-item-has-children:hover > .mega-menu{
 	text-transform: uppercase;
 }
 /* =============================================
-			Inner Banner v5						
+			Inner Banner v5
 ============================================= */
 .tg-innerbannervfive{}
 /* =============================================
-			Inner Banner v6						
+			Inner Banner v6
 ============================================= */
 .tg-innerbannervsix{
 	margin: 0;
@@ -3001,7 +3002,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-innerbannervsix figure figcaption .tg-description{padding: 40px 40px 40px 0;}
 .tg-innerbannervsix figure figcaption .tg-description p{margin: 0;}
 /*==============================================================================================
-										Services Style											
+										Services Style
 ==============================================================================================*/
 .tg-services{
 	width: 100%;
@@ -3037,11 +3038,11 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-servicetitle h3 a{color: #1c1c1c;}
 .tg-service .tg-description p{margin: 0;}
 /* =============================================
-			Services Style v1					
+			Services Style v1
 ============================================= */
 .tg-servicesvone{margin: -40px 0;}
 /* =============================================
-			Services Style v2					
+			Services Style v2
 ============================================= */
 .tg-servicesvtwo{
 	-webkit-box-shadow: 0 0 35px 0 rgba(0,0,0,0.15);
@@ -3078,7 +3079,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	vertical-align: top;
 }
 /* =============================================
-			Services Style v3					
+			Services Style v3
 ============================================= */
 .tg-services .tg-video{padding: 0 30px 0 0;}
 .tg-video{
@@ -3133,7 +3134,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-servicesvthree .tg-themetabcontent .tg-description{}
 .tg-servicesvthree .tg-themetabcontent .tg-description p{margin: 0 0 30px}
 /* =============================================
-			Services Style v4					
+			Services Style v4
 ============================================= */
 .tg-servicesvfour .tg-service{
 	padding: 0;
@@ -3152,7 +3153,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-servicesvfour .tg-servicetitle a{color: #fff;}
 /* =============================================
-			Services Style v5					
+			Services Style v5
 ============================================= */
 .tg-servicesvfive{}
 .tg-servicesvfive .tg-service{
@@ -3267,7 +3268,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	transform: rotateY(180deg);
 }
 /* =============================================
-			Services Style v6					
+			Services Style v6
 ============================================= */
 .tg-servicesvsix {margin: -40px 0;}
 .tg-servicesvsix .tg-service{text-align: center;}
@@ -3282,7 +3283,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	vertical-align: top;
 }
 /*==============================================================================================
-										Home Pages Style										
+										Home Pages Style
 ==============================================================================================*/
 .tg-title{
 	width: 100%;
@@ -3315,7 +3316,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	font: 100 55px/40px 'Roboto', Arial, Helvetica, sans-serif;
 }
 /* =============================================
-			Home Page V One						
+			Home Page V One
 ============================================= */
 .tg-features{
 	width: 100%;
@@ -3772,7 +3773,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-postsslider .owl-dots .owl-dot.active span,
 .tg-postsslider .owl-dots .owl-dot span:hover{ background: #4c4c4c; }
 /* =============================================
-			Home Page V Two						
+			Home Page V Two
 ============================================= */
 .tg-community{
 	width: 100%;
@@ -4069,7 +4070,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-barands figure a{display: block;}
 .tg-barands figure a img{display: block;}
 /* =============================================
-			Home Page V Three					
+			Home Page V Three
 ============================================= */
 .tg-sectionheadvthree{padding: 0;}
 .tg-sectionheadvthree .tg-sectiontitle{padding: 0 0 45px;}
@@ -4431,7 +4432,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	background: #bababa;
 }
 /* =============================================
-			Home Page V Four					
+			Home Page V Four
 ============================================= */
 .tg-bgdarkvtwo{background: #131519;}
 .tg-bgdarkgrey{background: #202226;}
@@ -4545,7 +4546,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	position: static;
 }
 /* =============================================
-			Home Page V Five					
+			Home Page V Five
 ============================================= */
 .tg-headervfive + .tg-pushpage .tg-main{padding: 0 0 0 310px;}
 .tg-headervfive + .tg-pushpage .tg-footer{padding: 100px 0 100px 310px}
@@ -4750,7 +4751,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	background: #00aced;
 }
 /* =============================================
-			Home Page V Six						
+			Home Page V Six
 ============================================= */
 .tg-sectionheadvtwo .tg-sectiontitle h2 em{
 	display: block;
@@ -4917,7 +4918,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-themefeaturesvfive .tg-themefeature h3{color: #1c1c1c;}
 .tg-bgaboutusvthree .tg-sectionheadvthree .tg-sectiontitle {padding: 0 0 100px;}
 /* =============================================
-			Home Page V Seven					
+			Home Page V Seven
 ============================================= */
 .tg-rectorsmessage{
 	width: 100%;
@@ -4951,11 +4952,11 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-introductionvtwo .tg-textshortcode,
 .tg-introductionvtwo .tg-textshortcode h2{color: #1c1c1c;}
 /* =============================================
-			Home Page V Eight					
+			Home Page V Eight
 ============================================= */
 .tg-widthonethird{width: 33.33%;}
 /* =============================================
-			Home Page V Nine					
+			Home Page V Nine
 ============================================= */
 .tg-digitalstudio{
 	width: 100%;
@@ -5054,7 +5055,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	font-weight: 400;
 }
 /* =============================================
-			Home Page V Ten						
+			Home Page V Ten
 ============================================= */
 .tg-servicesvnine{
 	margin: 0;
@@ -5167,7 +5168,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-clientfeedbackslidervfour .owl-dots .owl-dot.active span,
 .tg-clientfeedbackslidervfour .owl-dots .owl-dot span:hover{background: #8d8d8d;}
 /* =============================================
-			Home Page V Eleven					
+			Home Page V Eleven
 ============================================= */
 .tg-sectionheadvfour{padding: 0;}
 .tg-sectionheadvfour .tg-sectiontitle h2{
@@ -5337,10 +5338,10 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-headervsix .tg-addnav{border-left-color: #bbb;}
 .tg-headervsix .tg-addnav ul li a{color: #6b6b6b;}
 /*==============================================================================================
-										About Us Pages Style									
+										About Us Pages Style
 ==============================================================================================*/
 /* =============================================
-			About us V One						
+			About us V One
 ============================================= */
 .tg-title h2{
 	margin: 0;
@@ -5414,7 +5415,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	border: 1px solid #1c1c1c;
 }
 /* =============================================
-			About us V Two						
+			About us V Two
 ============================================= */
 .tg-whatwedothreecolumns{
 	width: 100%;
@@ -5488,7 +5489,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	line-height: inherit;
 }
 /* =============================================
-			About us V Three					
+			About us V Three
 ============================================= */
 .tg-internalnav{
 	width: 100%;
@@ -5636,7 +5637,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	visibility: visible;
 }
 /* =============================================
-			About us V Four						
+			About us V Four
 ============================================= */
 .tg-servicesvten .tg-service{padding: 0;}
 .tg-servicesvten .tg-serviceicon{
@@ -5706,7 +5707,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-statisticsvfour li h3:before{display: none;}
 /* =============================================
-			About us V Five						
+			About us V Five
 ============================================= */
 .tg-aboutusvtwo{padding: 0;}
 .tg-aboutusvtwo h2{
@@ -5772,7 +5773,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	display:block;
 }
 /* =============================================
-			About us V Six						
+			About us V Six
 ============================================= */
 .tg-aboutcreative{
 	padding:0 0 120px;
@@ -5816,7 +5817,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	border-top: 7px solid #222;
 }
 /* =============================================
-			About us V Seven					
+			About us V Seven
 ============================================= */
 .tg-headerveleven .tg-headercontent{
 	text-align:right;
@@ -5916,10 +5917,10 @@ li.menu-item-has-children:hover > .mega-menu{
 	float:left;
 }
 /*==============================================================================================
-										Contact Us Style										
+										Contact Us Style
 ==============================================================================================*/
 /* =============================================
-			Contact Us V One Style				
+			Contact Us V One Style
 ============================================= */
 .tg-contactus{
 	width:100%;
@@ -6006,7 +6007,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-formstartproject .form-group .tg-btn,
 .tg-formstartproject .form-group .tg-btn:hover{color:#fff;}
 /* =============================================
-			Contact Us V Two Style				
+			Contact Us V Two Style
 ============================================= */
 .tg-contactusvtwo .tg-address {padding:15px 0;}
 .tg-contactusvtwo .tg-address li{
@@ -6114,7 +6115,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	text-align:center;
 }
 /* =============================================
-			Contact Us V Three Style			
+			Contact Us V Three Style
 ============================================= */
 .tg-headervthree .tg-socialicons{border-left: 1px solid rgba(255, 255, 255, 0.50);}
 .tg-contactusvthree{
@@ -6218,7 +6219,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-contactusvthree .tg-map{height:100%;}
 /* =============================================
-			Contact Us V Four Style				
+			Contact Us V Four Style
 ============================================= */
 .tg-headervone.tg-bgdark{margin:0;}
 .tg-contactusvfour{padding:105px 0;}
@@ -6241,7 +6242,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-contactusvfour .tg-address li span,
 .tg-contactusvfour .tg-address li a{color:#fff;}
 /*==============================================================================================
-										Portfolio Pages Style									
+										Portfolio Pages Style
 ==============================================================================================*/
 .tg-portfoliotitle{
 	width:100%;
@@ -6270,7 +6271,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	display:block;
 }
 /* =============================================
-			Portfolio V One Style				
+			Portfolio V One Style
 ============================================= */
 .tg-navfilterbale{
 	width:100%;
@@ -6326,7 +6327,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-portfoliovone .tg-portfolioitem figure:hover figcaption{}
 /* =============================================
-			Portfolio V Two Style				
+			Portfolio V Two Style
 ============================================= */
 .tg-portfoliovtwo{margin: -66px 0 0;}
 .tg-portfoliovtwo .tg-navfilterbale li a {color: rgb(255, 255, 255);}
@@ -6350,7 +6351,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	visibility: visible;
 }
 /* =============================================
-			Portfolio V Three Style				
+			Portfolio V Three Style
 ============================================= */
 .tg-portfolioholder{
 	width: 100%;
@@ -6470,9 +6471,9 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-selectedwork .tg-portfolioitem figure:hover .tg-btnplus{
 	opacity: 1;
 	visibility: visible;
-} 
+}
 /* =============================================
-			Portfolio V Four Style				
+			Portfolio V Four Style
 ============================================= */
 .tg-portfoliovfour{padding: 15px;}
 .tg-portfoliovfour .tg-portfolioitem{padding: 15px;}
@@ -6483,7 +6484,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	background: rgba(0,0,0,0.40);
 }
 /* =============================================
-			Portfolio V Five Style				
+			Portfolio V Five Style
 ============================================= */
 .tg-portfoliovfive .tg-portfolioitem{padding: 15px;}
 .tg-portfoliovfive .tg-portfolioitem figure:hover .tg-hovervthree{
@@ -6493,7 +6494,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	background: rgba(0,0,0,0.40);
 }
 /* =============================================
-			Portfolio V Six Style				
+			Portfolio V Six Style
 ============================================= */
 .tg-portfoliovsix .tg-galleryfilterable{margin: -15px 0;}
 .tg-portfoliovsix .tg-portfolioitem{
@@ -6503,7 +6504,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-portfoliovsix .tg-portfolioitem:hover .tg-portfoliotitle{background:#141519;}
 .tg-portfoliovsix .tg-portfolioitem:hover .tg-portfoliotitle h2 a{color:#fff;}
 /* =============================================
-			Portfolio V Seven Style				
+			Portfolio V Seven Style
 ============================================= */
 .tg-portfoliovseven .tg-galleryfilterable{margin: -15px 0;}
 .tg-portfoliovseven .tg-portfolioitem{
@@ -6515,7 +6516,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-portfoliovseven .tg-portfolioitem:hover .tg-portfoliotitle{background:#141519;}
 .tg-portfoliovseven .tg-portfolioitem:hover .tg-portfoliotitle h2 a{color:#fff;}
 /* =============================================
-			Portfolio Detail Style				
+			Portfolio Detail Style
 ============================================= */
 .tg-portfoliodetail,
 .tg-portfoliodetailslider,
@@ -6616,7 +6617,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	line-height:14px;
 }
 /* =============================================
-			Portfolio Detail V Two Style		
+			Portfolio Detail V Two Style
 ============================================= */
 .tg-portfolioimgholder{
 	overflow:hidden;
@@ -6647,7 +6648,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-portfoliodetailvsix .tg-portfoliocontent{padding:0 120px 0 0;}
 /* =============================================
-			Portfolio Detail V Three Style		
+			Portfolio Detail V Three Style
 ============================================= */
 .tg-portfoliodetailvthree .tg-portfoliocontent{padding:0;}
 .tg-portfoliodetailvthree .tg-portfoliocontent .tg-projectdetail{
@@ -6656,7 +6657,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	position:static;
 }
 /* =============================================
-			Portfolio Detail V Four Style		
+			Portfolio Detail V Four Style
 ============================================= */
 .tg-portfoliodetailvfour{padding:0;}
 .tg-portfoliodetailslidervtwo{margin:-53px 0 70px;}
@@ -6665,7 +6666,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	height:12px;
 }
 /* =============================================
-			Portfolio Detail V Five Style		
+			Portfolio Detail V Five Style
 ============================================= */
 .tg-slidercontent img{
 	margin:0 auto;
@@ -6774,7 +6775,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	font-family: 'Lora', Arial, Helvetica, sans-serif;
 }
 /*==============================================================================================
-										Blog Pages Style									
+										Blog Pages Style
 ==============================================================================================*/
 .tg-displaytable{
 	float: none;
@@ -6812,7 +6813,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	position: relative;
 }
 /* =============================================
-			Blog V One Style					
+			Blog V One Style
 ============================================= */
 .tg-blogpostvone .tg-post{
 	width: 25%;
@@ -6890,7 +6891,7 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-paginationareavtwo .tg-pagination ul li.tg-prevpage i,
 .tg-paginationareavtwo .tg-pagination ul li.tg-nextpage i{color:#fff;}
 /* =============================================
-			Blog V Two Style					
+			Blog V Two Style
 ============================================= */
 .tg-postcategory{
 	top: 20px;
@@ -6958,7 +6959,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	position:absolute;
 }
 /* =============================================
-			Blog V Three Style					
+			Blog V Three Style
 ============================================= */
 .tg-widthonefourth{width:25%;}
 .tg-blogpostvthree .tg-widthhalf{width:50% !important;}
@@ -7016,7 +7017,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	border-radius:50%;
 }
 /* =============================================
-			Blog V Four Style					
+			Blog V Four Style
 ============================================= */
 .tg-blogpostvfour .tg-post{width:33.33%;}
 .tg-blogpostvfour .tg-post figure figcaption{
@@ -7063,17 +7064,17 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-blogpostvfour .tg-post figure figcaption .tg-postmetadata li a{color:#fff;}
 /* =============================================
-			Blog V Five Style					
+			Blog V Five Style
 ============================================= */
 .tg-blogpostvfive{padding:15px 0 0;}
 .tg-blogpostvfive .tg-post{width:25%;}
 /* =============================================
-			Blog V Six Style					
+			Blog V Six Style
 ============================================= */
 .tg-blogpostvsix{padding:105px 0 75px;}
 .tg-blogpostvsix .tg-post{width:33.33%;}
 /* =============================================
-			Blog V Six Style					
+			Blog V Six Style
 ============================================= */
 .tg-blogpostvseven{
 	padding:0;
@@ -7095,7 +7096,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-blogpostvseven .tg-postcontent .tg-description{padding:0 0 30px;}
 /* =============================================
-			Blog V Eight Style					
+			Blog V Eight Style
 ============================================= */
 .tg-blogpostveight .tg-post{
 	width:20%;
@@ -7138,7 +7139,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	border-top:1px solid #e7e7e7;
 }
 /* =============================================
-			Blog Detail Style					
+			Blog Detail Style
 ============================================= */
 .tg-innerbannervfour figure figcaption .tg-postmetadata{
 	border:0;
@@ -7537,7 +7538,7 @@ blockquote{
 	z-index: 99;
 	position: absolute;
 }
-.effect-18 ~ .focus-border:before, 
+.effect-18 ~ .focus-border:before,
 .effect-18 ~ .focus-border:after{
 	left: 0;
 	width: 0;
@@ -7554,7 +7555,7 @@ blockquote{
 	right: 0;
 	left: auto;
 }
-.effect-18:focus ~ .focus-border:before, 
+.effect-18:focus ~ .focus-border:before,
 .effect-18:focus ~ .focus-border:after,
 .has-content.effect-18 ~ .focus-border:before,
 .has-content.effect-18 ~ .focus-border:after{
@@ -7597,7 +7598,7 @@ blockquote{
 }
 .tg-formleavecomment .form-group textarea:focus{border-width:2px;}
 /* =============================================
-			Blog Detail V Two Style				
+			Blog Detail V Two Style
 ============================================= */
 .tg-innerbannervseven figure figcaption .tg-postmetadata {
 	border: 0;
@@ -7658,7 +7659,7 @@ blockquote{
 }
 .tg-blogdetailvtwo .tg-detailbox .tg-list{padding:0;}
 /* =============================================
-			Blog Detail V Three Style			
+			Blog Detail V Three Style
 ============================================= */
 .tg-innerbannereight figure figcaption{padding:330px 0;}
 .tg-contentholder{
@@ -7689,7 +7690,7 @@ blockquote{
 .tg-contentholder .tg-postmetadata li + li:before{color:#fff;}
 .tg-blogdetailvthree blockquote{margin: 30px 0 45px 0;}
 /* =============================================
-			Blog Detail V Four Style			
+			Blog Detail V Four Style
 ============================================= */
 .tg-blogdetailimg{
 	width:100%;
@@ -7737,7 +7738,7 @@ blockquote{
 }
 .tg-blogdetailvfour .tg-description .tg-list{padding:0;}
 /* =============================================
-			Our Process							
+			Our Process
 ============================================= */
 .tg-ourprocess{
 	width:100%;
@@ -7801,7 +7802,7 @@ blockquote{
 .tg-ourprocess:nth-child(even) .tg-processimg{float:left;}
 .tg-ourprocess:nth-child(even) .tg-processcontent{padding:0 0 0 70px;}
 /* =============================================
-			Shop Detail							
+			Shop Detail
 ============================================= */
 .tg-productderail{
 	width:100%;
@@ -8050,7 +8051,7 @@ blockquote{
 }
 .tg-formreview{padding:45px 0 0;}
 /* =============================================
-			404 Error							
+			404 Error
 ============================================= */
 .tg-404errorpage{
 	background: url(../images/404error-img.jpg) no-repeat center center fixed;
@@ -8095,7 +8096,7 @@ blockquote{
 }
 .tg-404errorcontent .tg-btn span{color:#fff;}
 /* =============================================
-			Maintenance Style					
+			Maintenance Style
 ============================================= */
 body.tg-maintenancepage{
 	background: url(../images/maintenance-img.jpg) no-repeat center center fixed;
@@ -8162,7 +8163,7 @@ body.tg-maintenancepage .tg-wrapper{height:100%;}
 	border-top: 7px solid #222;
 }
 /* =============================================
-			Comingsoon Style					
+			Comingsoon Style
 ============================================= */
 .tg-comingsooncontent{
 	width:100%;
@@ -8244,7 +8245,7 @@ body.tg-maintenancepage .tg-wrapper{height:100%;}
 	vertical-align:middle;
 }
 /* =============================================
-			Cart Style							
+			Cart Style
 ============================================= */
 .tg-cartproductdetail{
 	width:100%;
@@ -8413,7 +8414,7 @@ body.tg-maintenancepage .tg-wrapper{height:100%;}
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 Bottom to Top
 -------------------------------- */
 
@@ -8454,7 +8455,7 @@ Bottom to Top
 }
 
 /* =============================================
-			Website Loader						
+			Website Loader
 ============================================= */
 #loader-wrapper {
 	top: 0;
