@@ -29,7 +29,9 @@ p
 }
 
 .ry-copyright,
-.ry-copyright a
+.ry-copyright a,
+.tg-parallaxservices .tg-servicetitle h3,
+.tg-parallaxservices .tg-description p
 {
 	color: #fff;
 }
@@ -37,4 +39,16 @@ p
 .ry-copyright a:hover
 {
 	color: #c79035;
+}
+
+.tg-services .tg-description ul
+{
+	text-align: left;
+	padding-top: 10px;
+}
+
+.tg-services .tg-description ul li
+{
+	list-style-position: outside;
+	padding-bottom: 8px;
 }

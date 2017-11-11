@@ -57,7 +57,7 @@ a:active,
 .tg-portfoliovfive .tg-portfolioitem:hover figcaption,
 .tg-blogpostvone .tg-post:hover figure figcaption,
 .tg-hover,
-.tg-portfolioitem figure:hover .tg-hovervone{ background:rgba(59,85,230,0.80); }
+.tg-portfolioitem figure:hover .tg-hovervone{ background:rgba(32,41,73,0.80); } /* rgba(199,144,53,0.80); */
 /*=============================================
 			Theme Border Color
 =============================================*/
