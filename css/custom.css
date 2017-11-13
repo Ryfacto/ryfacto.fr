@@ -7,13 +7,18 @@
 .tg-servicetitle h3,
 .tg-sectionheadvtwo .tg-sectiontitle h2,
 .tg-servicesvsix .tg-serviceicon i,
-p
+p,
+.tg-clientfeedbackslidervtwo .ry-clientfeedback h3,
+.tg-clientfeedbackslidervtwo .ry-clientfeedback h4
 {
 	color: #202949;
 }
 
 .ry-header .tg-darkheader .tg-navigation > ul > li > a::before,
-.tg-sectionheadvtwo .tg-sectiontitle::before
+.tg-sectionheadvtwo .tg-sectiontitle::before,
+.ry-clientfeedbackslidervtwo .owl-dots .owl-dot.active span,
+.ry-clientfeedbackslidervtwo .owl-dots .owl-dot span:hover,
+.ry-clientfeedbackslidervtwo .owl-dots .owl-dot span
 {
 	background: #202949;
 }
@@ -29,7 +34,9 @@ p
 }
 
 .ry-copyright,
-.ry-copyright a
+.ry-copyright a,
+.tg-parallaxservices .tg-servicetitle h3,
+.tg-parallaxservices .tg-description p
 {
 	color: #fff;
 }
@@ -37,4 +44,16 @@ p
 .ry-copyright a:hover
 {
 	color: #c79035;
+}
+
+.tg-services .tg-description ul
+{
+	text-align: left;
+	padding-top: 10px;
+}
+
+.tg-services .tg-description ul li
+{
+	list-style-position: outside;
+	padding-bottom: 8px;
 }

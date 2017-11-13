@@ -677,6 +677,8 @@ jQuery(function () {
 	 NAV
 	 -------------------------------------- */
 	jQuery("#tg-navigation > ul").onePageNav({
-		currentClass: 'current-menu-item'
+		currentClass: 'current-menu-item',
+		changeHash: true,
+		filter: ':not(.external-link)'
 	});
 });
