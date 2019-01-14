@@ -57,3 +57,9 @@ p,
 	list-style-position: outside;
 	padding-bottom: 8px;
 }
+
+.tg-bannercontent h2 
+{
+	color: white;
+	text-transform: none;
+}
