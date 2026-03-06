@@ -41,7 +41,12 @@ p,
 
 .ry-copyright,
 .tg-parallaxservices .tg-servicetitle h3,
-.tg-parallaxservices .tg-description p
+.tg-parallaxservices .tg-description p,
+.tg-bgblue .tg-sectiontitle h2,
+.tg-bgblue .tg-serviceicon i,
+.tg-servicesvsix .tg-service:hover .tg-serviceicon i,
+.tg-bgblue h3,
+.tg-bgblue p
 {
 	color: #fff;
 }
