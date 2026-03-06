@@ -33,15 +33,26 @@ p,
 	padding-bottom: 90px;
 }
 
+.tg-footer a {
+	font-size: 4rem;
+	font-weight: bold;
+	color: #fff;
+}
+
 .ry-copyright,
-.ry-copyright a,
 .tg-parallaxservices .tg-servicetitle h3,
 .tg-parallaxservices .tg-description p
 {
 	color: #fff;
 }
 
-.ry-copyright a:hover
+.ry-copyright a {
+	font-weight: normal;
+	font-size: 1.5rem;
+}
+
+.ry-copyright a:hover,
+.tg-footer a:hover
 {
 	color: #c79035;
 }
