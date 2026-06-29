@@ -52,3 +52,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - LICENSE.txt
+  - CNAME
+  - README.md
+  - .gitignore
+  - .idea/
