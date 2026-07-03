@@ -55,5 +55,6 @@ exclude:
   - LICENSE.txt
   - CNAME
   - README.md
+  - PLAN.md
   - .gitignore
   - .idea/
