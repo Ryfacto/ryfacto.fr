@@ -2,11 +2,9 @@
 
 ## Découpage de la landing.
 
-Titre : Création et développement d'applications mobiles natives sur-mesure à Strasbourg
-
 ### En-tête
 
-Ryfacto est un atelier qui conçoit et développe des applications mobiles natives sur-mesure.
+Ryfacto est un atelier qui conçoit et développe des applications mobiles natives, iOS et Android, sur mesure.
 
 + de 15 ans d'expérience -> Nos compétences
 + de 25 projets -> Nos réalisations
@@ -29,7 +27,7 @@ notre créativité et notre savoir-faire technique pour garantir un résultat à
 Avec un esprit collaboratif et une méthode de développement itérative, nous garantissons la transparence (nous livrons 
 tous les jours !) et un coût maîtrisé.
 
--> En savoir plus (lien vers les valeurs)
+-> En savoir plus (lien vers l'équipe)
 
 #### Nos services
 
@@ -68,7 +66,24 @@ Décrivez-nous l'app mobile dont vous rêvez !
 ## Top nav
 
 - Compétences
+  - Application Native Apple
+  - Application Native Android
+  - Application Native Multiplateforme
+  - Backend
+  - Design Apple Liquid Glass
+  - Design Android Material
+  - Accessibilité Apple
+  - Accessibilité Android
+  - Maintenance
+  - Audit, conseils et stratégie
+  - Méthode Running Lean
 - Services
+  - Application Mobile Native
+  - Refonte d'app mobile
+  - Audit UX
+  - Audit Accessibilité
+  - Accompagnement de vos équipes de développement
+  - Expertise ponctuelle
 - Réalisations
 - L'Équipe
 - L'Académie
@@ -95,10 +110,11 @@ Décrivez-nous l'app mobile dont vous rêvez !
 /competences/produit-methode-running-lean
 
 /services
-/services/application-mobile-native-sur-mesure-minimum-viable-product
-/services/maintenance-et-evolution-application-mobile-native
-/services/audit-et-consulting
-/services/formation-sur-mesure
+/services/application-mobile-native-sur-mesure
+/services/refonte-application-mobile
+/services/audit-ux
+/services/audit-accessibilite
+/services/accompagnement-de-vos-equipes-de-developpement
 /services/expertise-ponctuelle
 
 /realisations

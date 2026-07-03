@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ryfacto - Atelier Logiciel en Alsace
+title: Agence d'applications mobiles natives à Strasbourg - Design et conception d'applications mobiles natives iOS et Android - Ryfacto
 lang: fr
 email: contact@ryfacto.fr
 description: >- # this means to ignore newlines until "baseurl:"
-
+  Agence d'applications mobiles natives à Strasbourg en Alsace. Spécialiste de la réalisation d'applications mobiles natives iOS et Android. Experte en accessibilité, ergonomie, design, intégration, développement, conseil et accompagnement.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.ryfacto.fr" # the base hostname & protocol for your site, e.g. http://example.com
 social_source: "www.ryfacto.fr"
