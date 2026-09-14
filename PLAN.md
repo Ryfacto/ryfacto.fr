@@ -4,7 +4,7 @@
 
 ### En-tête
 
-Ryfacto est un atelier qui conçoit et développe des applications mobiles natives, iOS et Android, sur mesure.
+Ryfacto est une agence qui conçoit et développe des applications mobiles natives, iOS et Android, sur mesure.
 
 + de 15 ans d'expérience -> Nos compétences
 + de 25 projets -> Nos réalisations
